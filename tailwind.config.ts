@@ -61,7 +61,30 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				algo: {
+					primary: 'hsl(var(--algo-primary))',
+					secondary: 'hsl(var(--algo-secondary))',
+					accent: 'hsl(var(--algo-accent))',
+					success: 'hsl(var(--algo-success))',
+					warning: 'hsl(var(--algo-warning))',
+					error: 'hsl(var(--algo-error))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-secondary': 'var(--gradient-secondary)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)'
+			},
+			boxShadow: {
+				'glow': 'var(--shadow-glow)',
+				'card': 'var(--shadow-card)',
+				'button': 'var(--shadow-button)'
+			},
+			fontFamily: {
+				'mono': ['JetBrains Mono', 'Fira Code', 'monospace'],
+				'inter': ['Inter', 'system-ui', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
